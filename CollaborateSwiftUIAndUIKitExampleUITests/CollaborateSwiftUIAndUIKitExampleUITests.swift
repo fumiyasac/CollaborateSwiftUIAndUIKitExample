@@ -1,13 +1,13 @@
 //
-//  RxSwiftAndUIExampleAnotherPatternUITests.swift
-//  RxSwiftAndUIExampleAnotherPatternUITests
+//  CollaborateSwiftUIAndUIKitExampleUITests.swift
+//  CollaborateSwiftUIAndUIKitExampleUITests
 //
-//  Created by 酒井文也 on 2021/01/10.
+//  Created by 酒井文也 on 2021/06/14.
 //
 
 import XCTest
 
-class RxSwiftAndUIExampleAnotherPatternUITests: XCTestCase {
+class CollaborateSwiftUIAndUIKitExampleUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
@@ -32,7 +32,7 @@ class RxSwiftAndUIExampleAnotherPatternUITests: XCTestCase {
     }
 
     func testLaunchPerformance() throws {
-        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, *) {
+        if #available(macOS 10.15, iOS 13.0, tvOS 13.0, watchOS 7.0, *) {
             // This measures how long it takes to launch your application.
             measure(metrics: [XCTApplicationLaunchMetric()]) {
                 XCUIApplication().launch()

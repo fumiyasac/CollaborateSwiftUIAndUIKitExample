@@ -1,8 +1,8 @@
 //
 //  AppDelegate.swift
-//  RxSwiftAndUIExampleAnotherPattern
+//  CollaborateSwiftUIAndUIKitExample
 //
-//  Created by 酒井文也 on 2021/01/10.
+//  Created by 酒井文也 on 2021/06/14.
 //
 
 import UIKit
