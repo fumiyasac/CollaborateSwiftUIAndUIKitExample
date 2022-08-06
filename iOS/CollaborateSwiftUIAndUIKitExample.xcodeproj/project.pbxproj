@@ -16,6 +16,7 @@
 		DE329A542676B6A50031B780 /* CollaborateSwiftUIAndUIKitExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE329A532676B6A50031B780 /* CollaborateSwiftUIAndUIKitExampleTests.swift */; };
 		DE329A5E2676B6A60031B780 /* CollaborateSwiftUIAndUIKitExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE329A5D2676B6A60031B780 /* CollaborateSwiftUIAndUIKitExampleUITests.swift */; };
 		DE51947E28981AD100D3F276 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = DE51947D28981AD100D3F276 /* ComposableArchitecture */; };
+		DE519481289EB8E400D3F276 /* ASCollectionView in Frameworks */ = {isa = PBXBuildFile; productRef = DE519480289EB8E400D3F276 /* ASCollectionView */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DE51947E28981AD100D3F276 /* ComposableArchitecture in Frameworks */,
+				DE519481289EB8E400D3F276 /* ASCollectionView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -144,6 +146,7 @@
 			name = CollaborateSwiftUIAndUIKitExample;
 			packageProductDependencies = (
 				DE51947D28981AD100D3F276 /* ComposableArchitecture */,
+				DE519480289EB8E400D3F276 /* ASCollectionView */,
 			);
 			productName = CollaborateSwiftUIAndUIKitExample;
 			productReference = DE329A392676B6A40031B780 /* CollaborateSwiftUIAndUIKitExample.app */;
@@ -219,6 +222,7 @@
 			mainGroup = DE329A302676B6A40031B780;
 			packageReferences = (
 				DE51947C28981AD100D3F276 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				DE51947F289EB8E400D3F276 /* XCRemoteSwiftPackageReference "ASCollectionView" */,
 			);
 			productRefGroup = DE329A3A2676B6A40031B780 /* Products */;
 			projectDirPath = "";
@@ -638,6 +642,14 @@
 				minimumVersion = 0.9.0;
 			};
 		};
+		DE51947F289EB8E400D3F276 /* XCRemoteSwiftPackageReference "ASCollectionView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apptekstudios/ASCollectionView";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -645,6 +657,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DE51947C28981AD100D3F276 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
 			productName = ComposableArchitecture;
+		};
+		DE519480289EB8E400D3F276 /* ASCollectionView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE51947F289EB8E400D3F276 /* XCRemoteSwiftPackageReference "ASCollectionView" */;
+			productName = ASCollectionView;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
