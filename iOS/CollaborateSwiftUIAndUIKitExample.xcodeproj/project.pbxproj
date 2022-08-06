@@ -17,6 +17,7 @@
 		DE329A5E2676B6A60031B780 /* CollaborateSwiftUIAndUIKitExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE329A5D2676B6A60031B780 /* CollaborateSwiftUIAndUIKitExampleUITests.swift */; };
 		DE51947E28981AD100D3F276 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = DE51947D28981AD100D3F276 /* ComposableArchitecture */; };
 		DE519481289EB8E400D3F276 /* ASCollectionView in Frameworks */ = {isa = PBXBuildFile; productRef = DE519480289EB8E400D3F276 /* ASCollectionView */; };
+		DE519484289EB93B00D3F276 /* Cosmos in Frameworks */ = {isa = PBXBuildFile; productRef = DE519483289EB93B00D3F276 /* Cosmos */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +57,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE519484289EB93B00D3F276 /* Cosmos in Frameworks */,
 				DE51947E28981AD100D3F276 /* ComposableArchitecture in Frameworks */,
 				DE519481289EB8E400D3F276 /* ASCollectionView in Frameworks */,
 			);
@@ -147,6 +149,7 @@
 			packageProductDependencies = (
 				DE51947D28981AD100D3F276 /* ComposableArchitecture */,
 				DE519480289EB8E400D3F276 /* ASCollectionView */,
+				DE519483289EB93B00D3F276 /* Cosmos */,
 			);
 			productName = CollaborateSwiftUIAndUIKitExample;
 			productReference = DE329A392676B6A40031B780 /* CollaborateSwiftUIAndUIKitExample.app */;
@@ -223,6 +226,7 @@
 			packageReferences = (
 				DE51947C28981AD100D3F276 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
 				DE51947F289EB8E400D3F276 /* XCRemoteSwiftPackageReference "ASCollectionView" */,
+				DE519482289EB93B00D3F276 /* XCRemoteSwiftPackageReference "Cosmos" */,
 			);
 			productRefGroup = DE329A3A2676B6A40031B780 /* Products */;
 			projectDirPath = "";
@@ -650,6 +654,14 @@
 				kind = branch;
 			};
 		};
+		DE519482289EB93B00D3F276 /* XCRemoteSwiftPackageReference "Cosmos" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/Cosmos.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -662,6 +674,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DE51947F289EB8E400D3F276 /* XCRemoteSwiftPackageReference "ASCollectionView" */;
 			productName = ASCollectionView;
+		};
+		DE519483289EB93B00D3F276 /* Cosmos */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE519482289EB93B00D3F276 /* XCRemoteSwiftPackageReference "Cosmos" */;
+			productName = Cosmos;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
