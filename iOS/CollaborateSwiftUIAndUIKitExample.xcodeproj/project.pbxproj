@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DE1834072931FDAA00E3E885 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = DE1834062931FDAA00E3E885 /* ComposableArchitecture */; };
+		DE1834092931FDAA00E3E885 /* Dependencies in Frameworks */ = {isa = PBXBuildFile; productRef = DE1834082931FDAA00E3E885 /* Dependencies */; };
+		DE18340C2932021B00E3E885 /* CollectionViewPagingLayout in Frameworks */ = {isa = PBXBuildFile; productRef = DE18340B2932021B00E3E885 /* CollectionViewPagingLayout */; };
+		DE18340F2932093C00E3E885 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = DE18340E2932093C00E3E885 /* Realm */; };
+		DE1834112932093C00E3E885 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = DE1834102932093C00E3E885 /* RealmSwift */; };
+		DE18341429320A4E00E3E885 /* WaterfallGrid in Frameworks */ = {isa = PBXBuildFile; productRef = DE18341329320A4E00E3E885 /* WaterfallGrid */; };
 		DE329A3D2676B6A40031B780 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE329A3C2676B6A40031B780 /* AppDelegate.swift */; };
 		DE329A3F2676B6A40031B780 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE329A3E2676B6A40031B780 /* SceneDelegate.swift */; };
 		DE329A412676B6A40031B780 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE329A402676B6A40031B780 /* ViewController.swift */; };
@@ -15,8 +21,6 @@
 		DE329A492676B6A50031B780 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DE329A472676B6A50031B780 /* LaunchScreen.storyboard */; };
 		DE329A542676B6A50031B780 /* CollaborateSwiftUIAndUIKitExampleTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE329A532676B6A50031B780 /* CollaborateSwiftUIAndUIKitExampleTests.swift */; };
 		DE329A5E2676B6A60031B780 /* CollaborateSwiftUIAndUIKitExampleUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE329A5D2676B6A60031B780 /* CollaborateSwiftUIAndUIKitExampleUITests.swift */; };
-		DE51947E28981AD100D3F276 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = DE51947D28981AD100D3F276 /* ComposableArchitecture */; };
-		DE519481289EB8E400D3F276 /* ASCollectionView in Frameworks */ = {isa = PBXBuildFile; productRef = DE519480289EB8E400D3F276 /* ASCollectionView */; };
 		DE519484289EB93B00D3F276 /* Cosmos in Frameworks */ = {isa = PBXBuildFile; productRef = DE519483289EB93B00D3F276 /* Cosmos */; };
 /* End PBXBuildFile section */
 
@@ -57,9 +61,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DE1834112932093C00E3E885 /* RealmSwift in Frameworks */,
+				DE1834092931FDAA00E3E885 /* Dependencies in Frameworks */,
+				DE18340C2932021B00E3E885 /* CollectionViewPagingLayout in Frameworks */,
+				DE1834072931FDAA00E3E885 /* ComposableArchitecture in Frameworks */,
 				DE519484289EB93B00D3F276 /* Cosmos in Frameworks */,
-				DE51947E28981AD100D3F276 /* ComposableArchitecture in Frameworks */,
-				DE519481289EB8E400D3F276 /* ASCollectionView in Frameworks */,
+				DE18341429320A4E00E3E885 /* WaterfallGrid in Frameworks */,
+				DE18340F2932093C00E3E885 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -147,9 +155,13 @@
 			);
 			name = CollaborateSwiftUIAndUIKitExample;
 			packageProductDependencies = (
-				DE51947D28981AD100D3F276 /* ComposableArchitecture */,
-				DE519480289EB8E400D3F276 /* ASCollectionView */,
 				DE519483289EB93B00D3F276 /* Cosmos */,
+				DE1834062931FDAA00E3E885 /* ComposableArchitecture */,
+				DE1834082931FDAA00E3E885 /* Dependencies */,
+				DE18340B2932021B00E3E885 /* CollectionViewPagingLayout */,
+				DE18340E2932093C00E3E885 /* Realm */,
+				DE1834102932093C00E3E885 /* RealmSwift */,
+				DE18341329320A4E00E3E885 /* WaterfallGrid */,
 			);
 			productName = CollaborateSwiftUIAndUIKitExample;
 			productReference = DE329A392676B6A40031B780 /* CollaborateSwiftUIAndUIKitExample.app */;
@@ -224,9 +236,11 @@
 			);
 			mainGroup = DE329A302676B6A40031B780;
 			packageReferences = (
-				DE51947C28981AD100D3F276 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
-				DE51947F289EB8E400D3F276 /* XCRemoteSwiftPackageReference "ASCollectionView" */,
 				DE519482289EB93B00D3F276 /* XCRemoteSwiftPackageReference "Cosmos" */,
+				DE1834052931FDAA00E3E885 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				DE18340A2932021B00E3E885 /* XCRemoteSwiftPackageReference "CollectionViewPagingLayout" */,
+				DE18340D2932093C00E3E885 /* XCRemoteSwiftPackageReference "realm-swift" */,
+				DE18341229320A4E00E3E885 /* XCRemoteSwiftPackageReference "WaterfallGrid" */,
 			);
 			productRefGroup = DE329A3A2676B6A40031B780 /* Products */;
 			projectDirPath = "";
@@ -379,7 +393,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -434,7 +448,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -638,20 +652,36 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		DE51947C28981AD100D3F276 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+		DE1834052931FDAA00E3E885 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
 			isa = XCRemoteSwiftPackageReference;
 			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
 			requirement = {
 				kind = upToNextMinorVersion;
-				minimumVersion = 0.9.0;
+				minimumVersion = 0.47.1;
 			};
 		};
-		DE51947F289EB8E400D3F276 /* XCRemoteSwiftPackageReference "ASCollectionView" */ = {
+		DE18340A2932021B00E3E885 /* XCRemoteSwiftPackageReference "CollectionViewPagingLayout" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/apptekstudios/ASCollectionView";
+			repositoryURL = "https://github.com/amirdew/CollectionViewPagingLayout.git";
 			requirement = {
-				branch = master;
-				kind = branch;
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.1.0;
+			};
+		};
+		DE18340D2932093C00E3E885 /* XCRemoteSwiftPackageReference "realm-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-swift.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 10.32.0;
+			};
+		};
+		DE18341229320A4E00E3E885 /* XCRemoteSwiftPackageReference "WaterfallGrid" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/paololeonardi/WaterfallGrid.git";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 1.0.0;
 			};
 		};
 		DE519482289EB93B00D3F276 /* XCRemoteSwiftPackageReference "Cosmos" */ = {
@@ -665,15 +695,35 @@
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		DE51947D28981AD100D3F276 /* ComposableArchitecture */ = {
+		DE1834062931FDAA00E3E885 /* ComposableArchitecture */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DE51947C28981AD100D3F276 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			package = DE1834052931FDAA00E3E885 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
 			productName = ComposableArchitecture;
 		};
-		DE519480289EB8E400D3F276 /* ASCollectionView */ = {
+		DE1834082931FDAA00E3E885 /* Dependencies */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = DE51947F289EB8E400D3F276 /* XCRemoteSwiftPackageReference "ASCollectionView" */;
-			productName = ASCollectionView;
+			package = DE1834052931FDAA00E3E885 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = Dependencies;
+		};
+		DE18340B2932021B00E3E885 /* CollectionViewPagingLayout */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE18340A2932021B00E3E885 /* XCRemoteSwiftPackageReference "CollectionViewPagingLayout" */;
+			productName = CollectionViewPagingLayout;
+		};
+		DE18340E2932093C00E3E885 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE18340D2932093C00E3E885 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = Realm;
+		};
+		DE1834102932093C00E3E885 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE18340D2932093C00E3E885 /* XCRemoteSwiftPackageReference "realm-swift" */;
+			productName = RealmSwift;
+		};
+		DE18341329320A4E00E3E885 /* WaterfallGrid */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DE18341229320A4E00E3E885 /* XCRemoteSwiftPackageReference "WaterfallGrid" */;
+			productName = WaterfallGrid;
 		};
 		DE519483289EB93B00D3F276 /* Cosmos */ = {
 			isa = XCSwiftPackageProductDependency;
