@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  CollaborateSwiftUIAndUIKitExample
 //
-//  Created by 酒井文也 on 2021/06/14.
+//  Created by 酒井文也 on 2023/10/18.
 //
 
 import UIKit
