@@ -15,6 +15,10 @@
 		DEEEED272ADF82FA00EE3D87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEEEED252ADF82FA00EE3D87 /* LaunchScreen.storyboard */; };
 		DEEEED362ADF85CB00EE3D87 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = DEEEED352ADF85CB00EE3D87 /* Networking */; };
 		DEEEED392ADF86A200EE3D87 /* Entity in Frameworks */ = {isa = PBXBuildFile; productRef = DEEEED382ADF86A200EE3D87 /* Entity */; };
+		DEEEED3E2ADF934B00EE3D87 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = DEEEED3D2ADF934B00EE3D87 /* ComposableArchitecture */; };
+		DEEEED412ADF936100EE3D87 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = DEEEED402ADF936100EE3D87 /* SDWebImageSwiftUI */; };
+		DEEEED442ADF939900EE3D87 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = DEEEED432ADF939900EE3D87 /* KeychainAccess */; };
+		DEEEED472ADF93B100EE3D87 /* Cosmos in Frameworks */ = {isa = PBXBuildFile; productRef = DEEEED462ADF93B100EE3D87 /* Cosmos */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,8 +41,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEEEED472ADF93B100EE3D87 /* Cosmos in Frameworks */,
+				DEEEED412ADF936100EE3D87 /* SDWebImageSwiftUI in Frameworks */,
 				DEEEED362ADF85CB00EE3D87 /* Networking in Frameworks */,
 				DEEEED392ADF86A200EE3D87 /* Entity in Frameworks */,
+				DEEEED3E2ADF934B00EE3D87 /* ComposableArchitecture in Frameworks */,
+				DEEEED442ADF939900EE3D87 /* KeychainAccess in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -114,6 +122,10 @@
 			packageProductDependencies = (
 				DEEEED352ADF85CB00EE3D87 /* Networking */,
 				DEEEED382ADF86A200EE3D87 /* Entity */,
+				DEEEED3D2ADF934B00EE3D87 /* ComposableArchitecture */,
+				DEEEED402ADF936100EE3D87 /* SDWebImageSwiftUI */,
+				DEEEED432ADF939900EE3D87 /* KeychainAccess */,
+				DEEEED462ADF93B100EE3D87 /* Cosmos */,
 			);
 			productName = CollaborateSwiftUIAndUIKitExample;
 			productReference = DEEEED172ADF82F900EE3D87 /* CollaborateSwiftUIAndUIKitExample.app */;
@@ -143,6 +155,12 @@
 				Base,
 			);
 			mainGroup = DEEEED0E2ADF82F900EE3D87;
+			packageReferences = (
+				DEEEED3C2ADF934B00EE3D87 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
+				DEEEED3F2ADF936100EE3D87 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
+				DEEEED422ADF939900EE3D87 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
+				DEEEED452ADF93B100EE3D87 /* XCRemoteSwiftPackageReference "Cosmos" */,
+			);
 			productRefGroup = DEEEED182ADF82F900EE3D87 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -396,6 +414,41 @@
 		};
 /* End XCConfigurationList section */
 
+/* Begin XCRemoteSwiftPackageReference section */
+		DEEEED3C2ADF934B00EE3D87 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.2.0;
+			};
+		};
+		DEEEED3F2ADF936100EE3D87 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.2.3;
+			};
+		};
+		DEEEED422ADF939900EE3D87 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess.git";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+		DEEEED452ADF93B100EE3D87 /* XCRemoteSwiftPackageReference "Cosmos" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/evgenyneu/Cosmos.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 23.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
 /* Begin XCSwiftPackageProductDependency section */
 		DEEEED352ADF85CB00EE3D87 /* Networking */ = {
 			isa = XCSwiftPackageProductDependency;
@@ -404,6 +457,26 @@
 		DEEEED382ADF86A200EE3D87 /* Entity */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Entity;
+		};
+		DEEEED3D2ADF934B00EE3D87 /* ComposableArchitecture */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DEEEED3C2ADF934B00EE3D87 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
+			productName = ComposableArchitecture;
+		};
+		DEEEED402ADF936100EE3D87 /* SDWebImageSwiftUI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DEEEED3F2ADF936100EE3D87 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
+			productName = SDWebImageSwiftUI;
+		};
+		DEEEED432ADF939900EE3D87 /* KeychainAccess */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DEEEED422ADF939900EE3D87 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
+			productName = KeychainAccess;
+		};
+		DEEEED462ADF93B100EE3D87 /* Cosmos */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DEEEED452ADF93B100EE3D87 /* XCRemoteSwiftPackageReference "Cosmos" */;
+			productName = Cosmos;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
