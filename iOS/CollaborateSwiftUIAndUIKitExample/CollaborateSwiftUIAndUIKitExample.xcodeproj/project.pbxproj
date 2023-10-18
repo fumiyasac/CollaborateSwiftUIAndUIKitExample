@@ -19,6 +19,7 @@
 		DEEEED412ADF936100EE3D87 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = DEEEED402ADF936100EE3D87 /* SDWebImageSwiftUI */; };
 		DEEEED442ADF939900EE3D87 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = DEEEED432ADF939900EE3D87 /* KeychainAccess */; };
 		DEEEED472ADF93B100EE3D87 /* Cosmos in Frameworks */ = {isa = PBXBuildFile; productRef = DEEEED462ADF93B100EE3D87 /* Cosmos */; };
+		DEEEED4A2ADF944400EE3D87 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = DEEEED492ADF944400EE3D87 /* Apollo */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 				DEEEED362ADF85CB00EE3D87 /* Networking in Frameworks */,
 				DEEEED392ADF86A200EE3D87 /* Entity in Frameworks */,
 				DEEEED3E2ADF934B00EE3D87 /* ComposableArchitecture in Frameworks */,
+				DEEEED4A2ADF944400EE3D87 /* Apollo in Frameworks */,
 				DEEEED442ADF939900EE3D87 /* KeychainAccess in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -126,6 +128,7 @@
 				DEEEED402ADF936100EE3D87 /* SDWebImageSwiftUI */,
 				DEEEED432ADF939900EE3D87 /* KeychainAccess */,
 				DEEEED462ADF93B100EE3D87 /* Cosmos */,
+				DEEEED492ADF944400EE3D87 /* Apollo */,
 			);
 			productName = CollaborateSwiftUIAndUIKitExample;
 			productReference = DEEEED172ADF82F900EE3D87 /* CollaborateSwiftUIAndUIKitExample.app */;
@@ -160,6 +163,7 @@
 				DEEEED3F2ADF936100EE3D87 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
 				DEEEED422ADF939900EE3D87 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
 				DEEEED452ADF93B100EE3D87 /* XCRemoteSwiftPackageReference "Cosmos" */,
+				DEEEED482ADF944400EE3D87 /* XCRemoteSwiftPackageReference "apollo-ios" */,
 			);
 			productRefGroup = DEEEED182ADF82F900EE3D87 /* Products */;
 			projectDirPath = "";
@@ -447,6 +451,14 @@
 				minimumVersion = 23.0.0;
 			};
 		};
+		DEEEED482ADF944400EE3D87 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.6.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -477,6 +489,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DEEEED452ADF93B100EE3D87 /* XCRemoteSwiftPackageReference "Cosmos" */;
 			productName = Cosmos;
+		};
+		DEEEED492ADF944400EE3D87 /* Apollo */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DEEEED482ADF944400EE3D87 /* XCRemoteSwiftPackageReference "apollo-ios" */;
+			productName = Apollo;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
