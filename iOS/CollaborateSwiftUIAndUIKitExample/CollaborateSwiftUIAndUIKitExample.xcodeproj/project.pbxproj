@@ -13,14 +13,6 @@
 		DEEEED222ADF82F900EE3D87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEEEED202ADF82F900EE3D87 /* Main.storyboard */; };
 		DEEEED242ADF82FA00EE3D87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEEEED232ADF82FA00EE3D87 /* Assets.xcassets */; };
 		DEEEED272ADF82FA00EE3D87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEEEED252ADF82FA00EE3D87 /* LaunchScreen.storyboard */; };
-		DEEEED362ADF85CB00EE3D87 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = DEEEED352ADF85CB00EE3D87 /* Networking */; };
-		DEEEED392ADF86A200EE3D87 /* Entity in Frameworks */ = {isa = PBXBuildFile; productRef = DEEEED382ADF86A200EE3D87 /* Entity */; };
-		DEEEED3E2ADF934B00EE3D87 /* ComposableArchitecture in Frameworks */ = {isa = PBXBuildFile; productRef = DEEEED3D2ADF934B00EE3D87 /* ComposableArchitecture */; };
-		DEEEED412ADF936100EE3D87 /* SDWebImageSwiftUI in Frameworks */ = {isa = PBXBuildFile; productRef = DEEEED402ADF936100EE3D87 /* SDWebImageSwiftUI */; };
-		DEEEED442ADF939900EE3D87 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = DEEEED432ADF939900EE3D87 /* KeychainAccess */; };
-		DEEEED472ADF93B100EE3D87 /* Cosmos in Frameworks */ = {isa = PBXBuildFile; productRef = DEEEED462ADF93B100EE3D87 /* Cosmos */; };
-		DEEEED4A2ADF944400EE3D87 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = DEEEED492ADF944400EE3D87 /* Apollo */; };
-		DEEEED572AE0D91800EE3D87 /* LocalStore in Frameworks */ = {isa = PBXBuildFile; productRef = DEEEED562AE0D91800EE3D87 /* LocalStore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,11 +24,12 @@
 		DEEEED232ADF82FA00EE3D87 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DEEEED262ADF82FA00EE3D87 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DEEEED282ADF82FA00EE3D87 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		DEEEED332ADF859400EE3D87 /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Networking; path = ../../../Networking; sourceTree = "<group>"; };
-		DEEEED372ADF868F00EE3D87 /* Entity */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Entity; path = ../../../Entity; sourceTree = "<group>"; };
-		DEEEED3A2ADF903900EE3D87 /* Domain */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Domain; path = ../../../Domain; sourceTree = "<group>"; };
-		DEEEED3B2ADF909F00EE3D87 /* ApplicationFeature */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ApplicationFeature; path = ../../../ApplicationFeature; sourceTree = "<group>"; };
-		DEEEED552AE0D8FB00EE3D87 /* LocalStore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = LocalStore; path = ../../../LocalStore; sourceTree = "<group>"; };
+		DEEEED582AE1720E00EE3D87 /* ApplicationFeature */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = ApplicationFeature; sourceTree = "<group>"; };
+		DEEEED592AE1725000EE3D87 /* Networking */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Networking; sourceTree = "<group>"; };
+		DEEEED5A2AE172EE00EE3D87 /* Entity */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Entity; sourceTree = "<group>"; };
+		DEEEED5B2AE1732700EE3D87 /* Components */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Components; sourceTree = "<group>"; };
+		DEEEED5C2AE1736400EE3D87 /* Domain */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Domain; sourceTree = "<group>"; };
+		DEEEED5D2AE1738B00EE3D87 /* LocalStore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = LocalStore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,14 +37,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEEEED472ADF93B100EE3D87 /* Cosmos in Frameworks */,
-				DEEEED412ADF936100EE3D87 /* SDWebImageSwiftUI in Frameworks */,
-				DEEEED572AE0D91800EE3D87 /* LocalStore in Frameworks */,
-				DEEEED362ADF85CB00EE3D87 /* Networking in Frameworks */,
-				DEEEED392ADF86A200EE3D87 /* Entity in Frameworks */,
-				DEEEED3E2ADF934B00EE3D87 /* ComposableArchitecture in Frameworks */,
-				DEEEED4A2ADF944400EE3D87 /* Apollo in Frameworks */,
-				DEEEED442ADF939900EE3D87 /* KeychainAccess in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -93,11 +78,12 @@
 		DEEEED322ADF854500EE3D87 /* Modules */ = {
 			isa = PBXGroup;
 			children = (
-				DEEEED3B2ADF909F00EE3D87 /* ApplicationFeature */,
-				DEEEED3A2ADF903900EE3D87 /* Domain */,
-				DEEEED372ADF868F00EE3D87 /* Entity */,
-				DEEEED552AE0D8FB00EE3D87 /* LocalStore */,
-				DEEEED332ADF859400EE3D87 /* Networking */,
+				DEEEED582AE1720E00EE3D87 /* ApplicationFeature */,
+				DEEEED5B2AE1732700EE3D87 /* Components */,
+				DEEEED5C2AE1736400EE3D87 /* Domain */,
+				DEEEED5A2AE172EE00EE3D87 /* Entity */,
+				DEEEED5D2AE1738B00EE3D87 /* LocalStore */,
+				DEEEED592AE1725000EE3D87 /* Networking */,
 			);
 			path = Modules;
 			sourceTree = "<group>";
@@ -126,14 +112,6 @@
 			);
 			name = CollaborateSwiftUIAndUIKitExample;
 			packageProductDependencies = (
-				DEEEED352ADF85CB00EE3D87 /* Networking */,
-				DEEEED382ADF86A200EE3D87 /* Entity */,
-				DEEEED3D2ADF934B00EE3D87 /* ComposableArchitecture */,
-				DEEEED402ADF936100EE3D87 /* SDWebImageSwiftUI */,
-				DEEEED432ADF939900EE3D87 /* KeychainAccess */,
-				DEEEED462ADF93B100EE3D87 /* Cosmos */,
-				DEEEED492ADF944400EE3D87 /* Apollo */,
-				DEEEED562AE0D91800EE3D87 /* LocalStore */,
 			);
 			productName = CollaborateSwiftUIAndUIKitExample;
 			productReference = DEEEED172ADF82F900EE3D87 /* CollaborateSwiftUIAndUIKitExample.app */;
@@ -164,11 +142,6 @@
 			);
 			mainGroup = DEEEED0E2ADF82F900EE3D87;
 			packageReferences = (
-				DEEEED3C2ADF934B00EE3D87 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */,
-				DEEEED3F2ADF936100EE3D87 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */,
-				DEEEED422ADF939900EE3D87 /* XCRemoteSwiftPackageReference "KeychainAccess" */,
-				DEEEED452ADF93B100EE3D87 /* XCRemoteSwiftPackageReference "Cosmos" */,
-				DEEEED482ADF944400EE3D87 /* XCRemoteSwiftPackageReference "apollo-ios" */,
 			);
 			productRefGroup = DEEEED182ADF82F900EE3D87 /* Products */;
 			projectDirPath = "";
@@ -420,89 +393,6 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
-
-/* Begin XCRemoteSwiftPackageReference section */
-		DEEEED3C2ADF934B00EE3D87 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/pointfreeco/swift-composable-architecture.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.2.0;
-			};
-		};
-		DEEEED3F2ADF936100EE3D87 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/SDWebImage/SDWebImageSwiftUI.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 2.2.3;
-			};
-		};
-		DEEEED422ADF939900EE3D87 /* XCRemoteSwiftPackageReference "KeychainAccess" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/kishikawakatsumi/KeychainAccess.git";
-			requirement = {
-				branch = master;
-				kind = branch;
-			};
-		};
-		DEEEED452ADF93B100EE3D87 /* XCRemoteSwiftPackageReference "Cosmos" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/evgenyneu/Cosmos.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 23.0.0;
-			};
-		};
-		DEEEED482ADF944400EE3D87 /* XCRemoteSwiftPackageReference "apollo-ios" */ = {
-			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/apollographql/apollo-ios.git";
-			requirement = {
-				kind = upToNextMajorVersion;
-				minimumVersion = 1.6.1;
-			};
-		};
-/* End XCRemoteSwiftPackageReference section */
-
-/* Begin XCSwiftPackageProductDependency section */
-		DEEEED352ADF85CB00EE3D87 /* Networking */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Networking;
-		};
-		DEEEED382ADF86A200EE3D87 /* Entity */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = Entity;
-		};
-		DEEEED3D2ADF934B00EE3D87 /* ComposableArchitecture */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DEEEED3C2ADF934B00EE3D87 /* XCRemoteSwiftPackageReference "swift-composable-architecture" */;
-			productName = ComposableArchitecture;
-		};
-		DEEEED402ADF936100EE3D87 /* SDWebImageSwiftUI */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DEEEED3F2ADF936100EE3D87 /* XCRemoteSwiftPackageReference "SDWebImageSwiftUI" */;
-			productName = SDWebImageSwiftUI;
-		};
-		DEEEED432ADF939900EE3D87 /* KeychainAccess */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DEEEED422ADF939900EE3D87 /* XCRemoteSwiftPackageReference "KeychainAccess" */;
-			productName = KeychainAccess;
-		};
-		DEEEED462ADF93B100EE3D87 /* Cosmos */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DEEEED452ADF93B100EE3D87 /* XCRemoteSwiftPackageReference "Cosmos" */;
-			productName = Cosmos;
-		};
-		DEEEED492ADF944400EE3D87 /* Apollo */ = {
-			isa = XCSwiftPackageProductDependency;
-			package = DEEEED482ADF944400EE3D87 /* XCRemoteSwiftPackageReference "apollo-ios" */;
-			productName = Apollo;
-		};
-		DEEEED562AE0D91800EE3D87 /* LocalStore */ = {
-			isa = XCSwiftPackageProductDependency;
-			productName = LocalStore;
-		};
-/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DEEEED0F2ADF82F900EE3D87 /* Project object */;
 }
