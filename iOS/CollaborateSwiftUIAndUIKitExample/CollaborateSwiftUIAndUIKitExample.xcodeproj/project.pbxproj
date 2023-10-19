@@ -13,6 +13,12 @@
 		DEEEED222ADF82F900EE3D87 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEEEED202ADF82F900EE3D87 /* Main.storyboard */; };
 		DEEEED242ADF82FA00EE3D87 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DEEEED232ADF82FA00EE3D87 /* Assets.xcassets */; };
 		DEEEED272ADF82FA00EE3D87 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DEEEED252ADF82FA00EE3D87 /* LaunchScreen.storyboard */; };
+		DEEEED5F2AE173B400EE3D87 /* ApplicationFeature in Frameworks */ = {isa = PBXBuildFile; productRef = DEEEED5E2AE173B400EE3D87 /* ApplicationFeature */; };
+		DEEEED612AE173B700EE3D87 /* Components in Frameworks */ = {isa = PBXBuildFile; productRef = DEEEED602AE173B700EE3D87 /* Components */; };
+		DEEEED632AE173BB00EE3D87 /* Domain in Frameworks */ = {isa = PBXBuildFile; productRef = DEEEED622AE173BB00EE3D87 /* Domain */; };
+		DEEEED652AE173C700EE3D87 /* Entity in Frameworks */ = {isa = PBXBuildFile; productRef = DEEEED642AE173C700EE3D87 /* Entity */; };
+		DEEEED672AE173CD00EE3D87 /* LocalStore in Frameworks */ = {isa = PBXBuildFile; productRef = DEEEED662AE173CD00EE3D87 /* LocalStore */; };
+		DEEEED692AE173D000EE3D87 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = DEEEED682AE173D000EE3D87 /* Networking */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +43,12 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEEEED692AE173D000EE3D87 /* Networking in Frameworks */,
+				DEEEED632AE173BB00EE3D87 /* Domain in Frameworks */,
+				DEEEED672AE173CD00EE3D87 /* LocalStore in Frameworks */,
+				DEEEED612AE173B700EE3D87 /* Components in Frameworks */,
+				DEEEED5F2AE173B400EE3D87 /* ApplicationFeature in Frameworks */,
+				DEEEED652AE173C700EE3D87 /* Entity in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -112,6 +124,12 @@
 			);
 			name = CollaborateSwiftUIAndUIKitExample;
 			packageProductDependencies = (
+				DEEEED5E2AE173B400EE3D87 /* ApplicationFeature */,
+				DEEEED602AE173B700EE3D87 /* Components */,
+				DEEEED622AE173BB00EE3D87 /* Domain */,
+				DEEEED642AE173C700EE3D87 /* Entity */,
+				DEEEED662AE173CD00EE3D87 /* LocalStore */,
+				DEEEED682AE173D000EE3D87 /* Networking */,
 			);
 			productName = CollaborateSwiftUIAndUIKitExample;
 			productReference = DEEEED172ADF82F900EE3D87 /* CollaborateSwiftUIAndUIKitExample.app */;
@@ -393,6 +411,33 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DEEEED5E2AE173B400EE3D87 /* ApplicationFeature */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = ApplicationFeature;
+		};
+		DEEEED602AE173B700EE3D87 /* Components */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Components;
+		};
+		DEEEED622AE173BB00EE3D87 /* Domain */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Domain;
+		};
+		DEEEED642AE173C700EE3D87 /* Entity */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Entity;
+		};
+		DEEEED662AE173CD00EE3D87 /* LocalStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LocalStore;
+		};
+		DEEEED682AE173D000EE3D87 /* Networking */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Networking;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = DEEEED0F2ADF82F900EE3D87 /* Project object */;
 }
