@@ -20,6 +20,7 @@
 		DEEEED442ADF939900EE3D87 /* KeychainAccess in Frameworks */ = {isa = PBXBuildFile; productRef = DEEEED432ADF939900EE3D87 /* KeychainAccess */; };
 		DEEEED472ADF93B100EE3D87 /* Cosmos in Frameworks */ = {isa = PBXBuildFile; productRef = DEEEED462ADF93B100EE3D87 /* Cosmos */; };
 		DEEEED4A2ADF944400EE3D87 /* Apollo in Frameworks */ = {isa = PBXBuildFile; productRef = DEEEED492ADF944400EE3D87 /* Apollo */; };
+		DEEEED572AE0D91800EE3D87 /* LocalStore in Frameworks */ = {isa = PBXBuildFile; productRef = DEEEED562AE0D91800EE3D87 /* LocalStore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,6 +36,7 @@
 		DEEEED372ADF868F00EE3D87 /* Entity */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Entity; path = ../../../Entity; sourceTree = "<group>"; };
 		DEEEED3A2ADF903900EE3D87 /* Domain */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = Domain; path = ../../../Domain; sourceTree = "<group>"; };
 		DEEEED3B2ADF909F00EE3D87 /* ApplicationFeature */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = ApplicationFeature; path = ../../../ApplicationFeature; sourceTree = "<group>"; };
+		DEEEED552AE0D8FB00EE3D87 /* LocalStore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = LocalStore; path = ../../../LocalStore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +46,7 @@
 			files = (
 				DEEEED472ADF93B100EE3D87 /* Cosmos in Frameworks */,
 				DEEEED412ADF936100EE3D87 /* SDWebImageSwiftUI in Frameworks */,
+				DEEEED572AE0D91800EE3D87 /* LocalStore in Frameworks */,
 				DEEEED362ADF85CB00EE3D87 /* Networking in Frameworks */,
 				DEEEED392ADF86A200EE3D87 /* Entity in Frameworks */,
 				DEEEED3E2ADF934B00EE3D87 /* ComposableArchitecture in Frameworks */,
@@ -93,6 +96,7 @@
 				DEEEED3B2ADF909F00EE3D87 /* ApplicationFeature */,
 				DEEEED3A2ADF903900EE3D87 /* Domain */,
 				DEEEED372ADF868F00EE3D87 /* Entity */,
+				DEEEED552AE0D8FB00EE3D87 /* LocalStore */,
 				DEEEED332ADF859400EE3D87 /* Networking */,
 			);
 			path = Modules;
@@ -129,6 +133,7 @@
 				DEEEED432ADF939900EE3D87 /* KeychainAccess */,
 				DEEEED462ADF93B100EE3D87 /* Cosmos */,
 				DEEEED492ADF944400EE3D87 /* Apollo */,
+				DEEEED562AE0D91800EE3D87 /* LocalStore */,
 			);
 			productName = CollaborateSwiftUIAndUIKitExample;
 			productReference = DEEEED172ADF82F900EE3D87 /* CollaborateSwiftUIAndUIKitExample.app */;
@@ -492,6 +497,10 @@
 			isa = XCSwiftPackageProductDependency;
 			package = DEEEED482ADF944400EE3D87 /* XCRemoteSwiftPackageReference "apollo-ios" */;
 			productName = Apollo;
+		};
+		DEEEED562AE0D91800EE3D87 /* LocalStore */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = LocalStore;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
