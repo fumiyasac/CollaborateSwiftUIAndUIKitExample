@@ -19,6 +19,8 @@
 		DEEEED652AE173C700EE3D87 /* Entity in Frameworks */ = {isa = PBXBuildFile; productRef = DEEEED642AE173C700EE3D87 /* Entity */; };
 		DEEEED672AE173CD00EE3D87 /* LocalStore in Frameworks */ = {isa = PBXBuildFile; productRef = DEEEED662AE173CD00EE3D87 /* LocalStore */; };
 		DEEEED692AE173D000EE3D87 /* Networking in Frameworks */ = {isa = PBXBuildFile; productRef = DEEEED682AE173D000EE3D87 /* Networking */; };
+		DEEEED6D2AE209F400EE3D87 /* Enum in Frameworks */ = {isa = PBXBuildFile; productRef = DEEEED6C2AE209F400EE3D87 /* Enum */; };
+		DEEEED6F2AE209F800EE3D87 /* Extension in Frameworks */ = {isa = PBXBuildFile; productRef = DEEEED6E2AE209F800EE3D87 /* Extension */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -36,6 +38,8 @@
 		DEEEED5B2AE1732700EE3D87 /* Components */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Components; sourceTree = "<group>"; };
 		DEEEED5C2AE1736400EE3D87 /* Domain */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Domain; sourceTree = "<group>"; };
 		DEEEED5D2AE1738B00EE3D87 /* LocalStore */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = LocalStore; sourceTree = "<group>"; };
+		DEEEED6A2AE209A200EE3D87 /* Extension */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Extension; sourceTree = "<group>"; };
+		DEEEED6B2AE209DA00EE3D87 /* Enum */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = Enum; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -43,11 +47,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DEEEED6D2AE209F400EE3D87 /* Enum in Frameworks */,
 				DEEEED692AE173D000EE3D87 /* Networking in Frameworks */,
 				DEEEED632AE173BB00EE3D87 /* Domain in Frameworks */,
 				DEEEED672AE173CD00EE3D87 /* LocalStore in Frameworks */,
 				DEEEED612AE173B700EE3D87 /* Components in Frameworks */,
 				DEEEED5F2AE173B400EE3D87 /* ApplicationFeature in Frameworks */,
+				DEEEED6F2AE209F800EE3D87 /* Extension in Frameworks */,
 				DEEEED652AE173C700EE3D87 /* Entity in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -94,6 +100,8 @@
 				DEEEED5B2AE1732700EE3D87 /* Components */,
 				DEEEED5C2AE1736400EE3D87 /* Domain */,
 				DEEEED5A2AE172EE00EE3D87 /* Entity */,
+				DEEEED6B2AE209DA00EE3D87 /* Enum */,
+				DEEEED6A2AE209A200EE3D87 /* Extension */,
 				DEEEED5D2AE1738B00EE3D87 /* LocalStore */,
 				DEEEED592AE1725000EE3D87 /* Networking */,
 			);
@@ -130,6 +138,8 @@
 				DEEEED642AE173C700EE3D87 /* Entity */,
 				DEEEED662AE173CD00EE3D87 /* LocalStore */,
 				DEEEED682AE173D000EE3D87 /* Networking */,
+				DEEEED6C2AE209F400EE3D87 /* Enum */,
+				DEEEED6E2AE209F800EE3D87 /* Extension */,
 			);
 			productName = CollaborateSwiftUIAndUIKitExample;
 			productReference = DEEEED172ADF82F900EE3D87 /* CollaborateSwiftUIAndUIKitExample.app */;
@@ -436,6 +446,14 @@
 		DEEEED682AE173D000EE3D87 /* Networking */ = {
 			isa = XCSwiftPackageProductDependency;
 			productName = Networking;
+		};
+		DEEEED6C2AE209F400EE3D87 /* Enum */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Enum;
+		};
+		DEEEED6E2AE209F800EE3D87 /* Extension */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = Extension;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
