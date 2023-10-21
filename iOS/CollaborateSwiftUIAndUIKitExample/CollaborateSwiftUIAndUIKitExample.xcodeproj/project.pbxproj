@@ -84,11 +84,9 @@
 			children = (
 				DEEEED1A2ADF82F900EE3D87 /* AppDelegate.swift */,
 				DEEEED1C2ADF82F900EE3D87 /* SceneDelegate.swift */,
-				DEEEED232ADF82FA00EE3D87 /* Assets.xcassets */,
-				DEEEED252ADF82FA00EE3D87 /* LaunchScreen.storyboard */,
-				DEEEED282ADF82FA00EE3D87 /* Info.plist */,
-				DEEEED712AE34B9C00EE3D87 /* DependencyInjection */,
-				DEEEED702AE34B9500EE3D87 /* MainView */,
+				DEEEED712AE34B9C00EE3D87 /* Resources */,
+				DEEEED722AE48CF800EE3D87 /* Launch */,
+				DEEEED702AE34B9500EE3D87 /* Main */,
 			);
 			path = CollaborateSwiftUIAndUIKitExample;
 			sourceTree = "<group>";
@@ -115,20 +113,30 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DEEEED702AE34B9500EE3D87 /* MainView */ = {
+		DEEEED702AE34B9500EE3D87 /* Main */ = {
 			isa = PBXGroup;
 			children = (
 				DEEEED202ADF82F900EE3D87 /* MainViewController.storyboard */,
 				DEEEED1E2ADF82F900EE3D87 /* MainViewController.swift */,
 			);
-			path = MainView;
+			path = Main;
 			sourceTree = "<group>";
 		};
-		DEEEED712AE34B9C00EE3D87 /* DependencyInjection */ = {
+		DEEEED712AE34B9C00EE3D87 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				DEEEED282ADF82FA00EE3D87 /* Info.plist */,
+				DEEEED232ADF82FA00EE3D87 /* Assets.xcassets */,
 			);
-			path = DependencyInjection;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		DEEEED722AE48CF800EE3D87 /* Launch */ = {
+			isa = PBXGroup;
+			children = (
+				DEEEED252ADF82FA00EE3D87 /* LaunchScreen.storyboard */,
+			);
+			path = Launch;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
