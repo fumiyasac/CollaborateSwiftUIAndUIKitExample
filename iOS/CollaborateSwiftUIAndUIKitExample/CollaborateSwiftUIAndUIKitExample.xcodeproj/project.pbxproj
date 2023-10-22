@@ -84,6 +84,7 @@
 			children = (
 				DEEEED1A2ADF82F900EE3D87 /* AppDelegate.swift */,
 				DEEEED1C2ADF82F900EE3D87 /* SceneDelegate.swift */,
+				DEEEED282ADF82FA00EE3D87 /* Info.plist */,
 				DEEEED712AE34B9C00EE3D87 /* Resources */,
 				DEEEED722AE48CF800EE3D87 /* Launch */,
 				DEEEED702AE34B9500EE3D87 /* Main */,
@@ -125,7 +126,6 @@
 		DEEEED712AE34B9C00EE3D87 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				DEEEED282ADF82FA00EE3D87 /* Info.plist */,
 				DEEEED232ADF82FA00EE3D87 /* Assets.xcassets */,
 			);
 			path = Resources;

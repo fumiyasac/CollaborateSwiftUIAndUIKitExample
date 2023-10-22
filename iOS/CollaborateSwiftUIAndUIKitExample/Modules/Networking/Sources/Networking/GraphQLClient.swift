@@ -1,11 +1,12 @@
 import Foundation
 import Apollo
+import LocalStore
 
-final class GraphQLClient {
+public final class GraphQLClient {
 
     // MARK: - Singleton Instance
 
-    static let shared = GraphQLClient()
+    public static let shared = GraphQLClient()
 
     private init() {}
 
@@ -20,14 +21,17 @@ final class GraphQLClient {
             client: URLSessionClient(),
             store: store
         )
+
+        // MEMO: JWT文字列をApolloのAuthenticationHeaderに設定する
+        let authenticationHeader = KeychainAccessLocalStore.shared.getAuthenticationHeader()
+
         // MEMO: エンドポイントはすでにサンプルとして公開されているものを利用する形としています。
         // 動作コード: ""
         let url = URL(string: "")!
         let transport = RequestChainNetworkTransport(
             interceptorProvider: provider,
             endpointURL: url,
-            // MEMO: もしHeader用のAccessTokenを付与する場合はこちらを活用することになります。
-            additionalHeaders: ["Authorization": "Bearer "]
+            additionalHeaders: ["Authorization": authenticationHeader]
         )
         return ApolloClient(networkTransport: transport, store: store)
     }()
